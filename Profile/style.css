@@ -747,6 +747,27 @@ section{
     html{
         font-size: 45%;
     }
+    #scroll-toggler{
+        bottom: 2rem;
+        height: 5.5rem;
+        width: 5.5rem;
+        font-size: 3rem;
+        line-height: 5.5rem;
+    }
+    #theme-toggler{
+        top: 2rem;
+        height: 5.5rem;
+        width: 5.5rem;
+        font-size: 3rem;
+        line-height: 5.5rem;
+    }
+    #menu-btn{
+        top: 2rem;
+        height: 5.5rem;
+        width: 5.5rem;
+        font-size: 3rem;
+        line-height: 5.5rem;
+    }
 }
 
 @media (max-width:620px) {
@@ -772,23 +793,23 @@ section{
     }
     #scroll-toggler{
         bottom: 2rem;
-        height: 6rem;
-        width: 6rem;
-        font-size: 3rem;
-        line-height: 6rem;
+        height: 6.5rem;
+        width: 6.5rem;
+        font-size: 3.5rem;
+        line-height: 6.5rem;
     }
     #theme-toggler{
         top: 2rem;
-        height: 6rem;
-        width: 6rem;
-        font-size: 3rem;
-        line-height: 6rem;
+        height: 6.5rem;
+        width: 6.5rem;
+        font-size: 3.5rem;
+        line-height: 6.5rem;
     }
     #menu-btn{
         top: 2rem;
-        height: 6rem;
-        width: 6rem;
-        font-size: 3rem;
-        line-height: 6rem;
+        height: 6.5rem;
+        width: 6.5rem;
+        font-size: 3.5rem;
+        line-height: 6.5rem;
     }
 }
