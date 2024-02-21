@@ -870,3 +870,13 @@ section{
         line-height: 1.2;
     }
 }
+@media (max-width:350px) {
+    .home .content h1{
+        font-size: 6rem;
+        line-height: 2;
+    }
+    .home .content h3{
+        font-size: 5rem;
+        line-height: 1.2;
+    }
+}
