@@ -148,8 +148,8 @@ section{
     border: 1rem solid transparent;
     border-radius: 50%;
     margin-top: 20px;
-    height: 18rem;
-    width: 18rem;
+    height: 16rem;
+    width: 16rem;
     box-shadow: var(--box-shadow);
 }
 
@@ -171,9 +171,9 @@ section{
 .header .navbar a{
     display: block;
     margin: 1.5rem 0;
-    padding: .4rem;
+    padding: .2rem;
     border-right: 5rem;
-    font-size: 2rem;
+    font-size: 1.9rem;
     box-shadow: var(--box-shadow);
     color: var(--black);
     border-radius: 5rem;
@@ -724,22 +724,45 @@ section{
     html{
         font-size: 50%;
     }
-
     body{
         padding-left: 0;
     }
-
     .header{
         left: -110%;
     }
-
     .header.active{
         left: 0%;
         transition: .4s all ease linear;
     }
-
+    #scroll-toggler{
+        bottom: 2rem;
+        height: 8.5rem;
+        width: 8.5rem;
+        font-size: 5.5rem;
+        line-height: 8rem;
+    }
+    #theme-toggler{
+        top: 2rem;
+        height: 8.5rem;
+        width: 8.5rem;
+        font-size: 5.5rem;
+        line-height: 8rem;
+    }
     #menu-btn{
+        top: 2rem;
+        height: 8.5rem;
+        width: 8.5rem;
+        font-size: 5.5rem;
+        line-height: 8rem;
         display: initial;
+    }
+    .home .content h1{
+        font-size: 10rem;
+        line-height: 1.4;
+    }
+    .home .content h3{
+        font-size: 8rem;
+        line-height: 1;
     }
 }
 
@@ -749,24 +772,24 @@ section{
     }
     #scroll-toggler{
         bottom: 2rem;
-        height: 5.5rem;
-        width: 5.5rem;
-        font-size: 3rem;
-        line-height: 5.5rem;
+        height: 8rem;
+        width: 8rem;
+        font-size: 5rem;
+        line-height: 7.5rem;
     }
     #theme-toggler{
         top: 2rem;
-        height: 5.5rem;
-        width: 5.5rem;
-        font-size: 3rem;
-        line-height: 5.5rem;
+        height: 8rem;
+        width: 8rem;
+        font-size: 5rem;
+        line-height: 7.5rem;
     }
     #menu-btn{
         top: 2rem;
-        height: 5.5rem;
-        width: 5.5rem;
-        font-size: 3rem;
-        line-height: 5.5rem;
+        height: 8rem;
+        width: 8rem;
+        font-size: 5rem;
+        line-height: 7.5rem;
     }
 }
 
@@ -779,6 +802,14 @@ section{
 @media (max-width:560px) {
     html{
         font-size: 40%;
+    }
+    .home .content h1{
+        font-size: 8rem;
+        line-height: 1.6;
+    }
+    .home .content h3{
+        font-size: 7rem;
+        line-height: 1.2;
     }
 }
 
@@ -829,5 +860,13 @@ section{
     .header .navbar a{
         margin: 2rem 0;
         font-size: 3.5rem;
+    }
+    .home .content h1{
+        font-size: 7rem;
+        line-height: 1.6;
+    }
+    .home .content h3{
+        font-size: 6rem;
+        line-height: 1.2;
     }
 }
