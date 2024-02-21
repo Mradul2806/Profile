@@ -208,16 +208,6 @@ section{
     box-shadow: var(--box-shadow-inset);
 }
 
-/* #sun{
-    z-index: -1;
-    visibility: hidden;
-}
-
-#sun::after{
-    z-index: 100;
-    visibility: visible;
-} */
-
 #theme-toggler{
     position: fixed;
     z-index: 1000;
