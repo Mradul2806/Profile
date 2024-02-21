@@ -870,7 +870,7 @@ section{
         line-height: 1.2;
     }
 }
-@media (max-width:350px) {
+@media (max-width:360px) {
     .home .content h1{
         font-size: 6rem;
         line-height: 2;
