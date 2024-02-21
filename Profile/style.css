@@ -815,20 +815,19 @@ section{
     .header .user img{
         height: 25rem;
         width: 25rem;
-        margin-top: 10px;
     }
     .header .user h3{
-        font-size: 3.5rem;
+        font-size: 4rem;
     }
     .header .user p{
-        font-size: 2.5rem;
+        font-size: 3rem;
     }
     .header .navbar{
         margin-top: .2rem;
         margin: 15px;
     }
     .header .navbar a{
-        margin: 1rem 0;
+        margin: 2rem 0;
         font-size: 3.5rem;
     }
 }
