@@ -110,21 +110,6 @@ section{
     text-transform: uppercase;
 }
 
-/* .heading span::after{
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 3px;
-    width: 0%;
-    background: var(--bhagwa);
-    transition: all ease 1s;
-}
-
-.heading span:hover::after{
-    width: 100%;
-} */
-
 .header{
     position: fixed;
     top: 0;
@@ -136,8 +121,8 @@ section{
     border-right: var(--border);
     height: 100vh;
     padding: 1.0.5rem;/*
-    border: 5px solid black;
-*/}
+    border: 5px solid black;*/
+}
 
 .header .user{
     top: 0;
@@ -316,24 +301,8 @@ section{
     color: var(--bhagwa);
 }
 
-/* .heading span::after{
-    content: "";
-    position: absolute;
-    left: 50%;
-    top: 15rem;
-    width: 0%;
-    height: 3px;
-    background: var(--bhagwa);
-}
-
-.heading span:hover::after{
-    width: 100%;
-} */
-
 .about .row{
-    /* display: flex; */
     align-items: center;
-    /* flex-wrap: wrap; */
     gap: 2rem;
 }
 
@@ -347,7 +316,6 @@ section{
     color: var(--black);
     line-height: 1.8;
 }
-
 
 .about .row .content h3 span{
     color: var(--bhagwa);
@@ -380,23 +348,24 @@ section{
 
 .about .row2{
     align-items: center;
-    margin-top: 5rem;
-    padding: 5rem;
+    margin-top: 2rem;
+    padding: 2rem;
 }
 
 .about .row2 .box-container{
     display: inline-block;
-    /* margin-top: 5rem; */
-    margin-left: 5rem;
-    margin-bottom: 5rem;
+    margin-top: 3rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 3rem;
     justify-items: center;
     width: 20rem;
 }
 
 .about .row2 .box-container .box{
-    /* flex: 1 1 18rem; */
+    flex: 1 1 18rem;
     text-align: center;
-    padding: 2.5rem;
+    padding: 2rem;
     border-radius: .5rem;
     box-shadow: var(--box-shadow);
 }
