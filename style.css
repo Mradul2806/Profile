@@ -68,16 +68,14 @@ body{
 .button{
     position: absolute;
     /* border: 2px solid black; */
-    width: 44%;
+    width: 100%;
     top: 75%;
     z-index: 4;
-    margin-left: 29%;
     text-align: center;   
     font-size: 2.5vw;
     font-weight: bolder;
     background: transparent;
     padding: 20px;
-    border: none;
     transition: all ease 1.5s;
 }
 
